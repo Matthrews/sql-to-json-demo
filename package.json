@@ -1,0 +1,18 @@
+{
+  "name": "sql-to-json-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:1": "node ./index.js",
+    "start:2": "node ./index_2.js",
+    "start:3": "node ./index_3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@florajs/sql-parser": "^2.0.0",
+    "sql92-json": "^0.19.2"
+  }
+}
