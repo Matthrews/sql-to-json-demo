@@ -7,15 +7,23 @@
     "start:1": "node ./index.js",
     "start:2": "node ./index_2.js",
     "start:3": "node ./index_3.js",
-    "start:4": "node ./index_4.js"
+    "start:4": "node ./index_4.js",
+    "gen": "antlr4 SQL.g4 -Dlanguage=JavaScript -o generated\\",
+    "test": "mocha",
+    "pack": "browserify --ignore-missing main.js -o release/antlr4-sql.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@florajs/sql-parser": "^2.0.0",
+    "antlr4": "^4.13.0",
+    "browserify": "^10.2.4",
+    "chai": "^3.2.0",
     "js-sql-parser": "^1.4.1",
+    "mocha": "^2.4.5",
     "node-sql-parser": "^4.7.0",
     "sql92-json": "^0.19.2"
   }
+
 }
