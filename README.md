@@ -10,6 +10,8 @@
 
 - [codegen](https://cloud.codegen.cc/exts/SQLToJSON200)
 
+- [ANTLR](https://www.antlr.org/)
+
 # Summary
 
 - `SQL92-JSON` is based on SQL92 standard, which is too old and having few updates, the latest SQL standard is [SQL2016](https://www.iso.org/standard/63555.html)
@@ -23,3 +25,7 @@
 # References
 
 - [Parsing SQL](https://tomassetti.me/parsing-sql/)
+
+- [antlr4-javascript-sql](https://github.com/sirensolutions/antlr4-javascript-sql)
+
+- [ANTLR4 Grammars](https://github.com/antlr/grammars-v4)
