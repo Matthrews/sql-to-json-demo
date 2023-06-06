@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@florajs/sql-parser": "^2.0.0",
+    "js-sql-parser": "^1.4.1",
+    "node-sql-parser": "^4.7.0",
     "sql92-json": "^0.19.2"
   }
 }
